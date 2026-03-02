@@ -1,84 +1,47 @@
 body{
 margin:0;
+padding:0;
 background:black;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-overflow:hidden;
-
 }
 
 .container{
-
 position:relative;
-width:360px;
-
+max-width:400px;
+margin:auto;
 }
 
-.screen{
-
+.mainimg{
 width:100%;
 display:block;
-
 }
 
-/* language */
-
 .lang{
-
 position:absolute;
 top:20px;
 left:20px;
-
 }
 
-/* menu button */
-
 .menu{
-
 position:absolute;
 top:20px;
 right:20px;
-width:40px;
+width:50px;
 height:40px;
-
 }
-
-/* get started */
 
 .get{
-
 position:absolute;
-bottom:120px;
+bottom:90px;
 left:50%;
 transform:translateX(-50%);
 width:220px;
-height:50px;
-
+height:60px;
 }
 
-/* learn more */
-
-.learn{
-
+.home{
 position:absolute;
-bottom:60px;
-left:50%;
-transform:translateX(-50%);
-width:220px;
-height:40px;
-
-}
-
-/* back */
-
-.back{
-
-position:absolute;
-top:30px;
+top:20px;
 left:20px;
-width:150px;
+width:60px;
 height:40px;
-
 }
